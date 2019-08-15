@@ -1,0 +1,649 @@
+# Template translation for Enhanced Builtin Commands.
+# Copyright (C) 2019 Panquesito7 and contributors.
+# This file is distributed under under the same license as the Enhanced Builtin Commands package.
+# Panquesito7, 2019.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Enhanced Builtin Commands\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-14 8:35+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.lua
+msgid "Your privileges are insufficient."
+msgstr ""
+
+#: functions.lua
+msgid "Player @1 does not exist."
+msgstr ""
+
+#: functions.lua
+msgid "Unknown privilege: @1\n"
+msgstr ""
+
+#: functions.lua
+msgid "@1 granted you privileges: @2"
+msgstr ""
+
+#: functions.lua
+msgid "Privileges of @1: @2"
+msgstr ""
+
+#: functions.lua
+msgid "Finished emerging %d blocks in %.2fms."
+msgstr ""
+
+#: functions.lua
+msgid "emergeblocks update: %d/%d blocks emerged (%.1f%%)"
+msgstr ""
+
+#: functions.lua
+msgid "Cannot give an empty item"
+msgstr ""
+
+#: functions.lua
+msgid "Cannot give an unknown item"
+msgstr ""
+
+#: functions.lua
+msgid "Giving 'ignore' is not allowed"
+msgstr ""
+
+#: functions.lua
+msgid "@1 is not a known player"
+msgstr ""
+
+#: functions.lua
+msgid "could not be "
+msgstr ""
+
+#: functions.lua
+msgid "partially "
+msgstr ""
+
+#: functions.lua
+msgid "%q %sadded to inventory."
+msgstr ""
+
+#: functions.lua
+msgid "%q %sadded to %s's inventory."
+msgstr ""
+
+#: init.lua
+msgid "Show the name of the server owner"
+msgstr ""
+
+#: init.lua
+msgid "<playername>"
+msgstr ""
+
+#: init.lua
+msgid "The administrator of this server is @1."
+msgstr ""
+
+#: init.lua
+msgid "There's no administrator named in the config file."
+msgstr ""
+
+#: init.lua
+msgid "Sent to @1."
+msgstr ""
+
+#: init.lua
+msgid "You don't have permission to run this command (missing privilege: server)."
+msgstr ""
+
+#: init.lua
+msgid "List mods installed on the server."
+msgstr ""
+
+#: init.lua
+msgid "Destroy item in hand"
+msgstr ""
+
+#: init.lua
+msgid "Unable to pulverize, no player."
+msgstr ""
+
+#: init.lua
+msgid "An item was pulverized."
+msgstr ""
+
+#: init.lua
+msgid "Unable to pulverize, no item in @1's hand."
+msgstr ""
+
+#: init.lua
+msgid "An item was pulverized by @1."
+msgstr ""
+
+#: init.lua
+msgid "Show server status"
+msgstr ""
+
+#: init.lua
+msgid "This command was disabled by a mod or game"
+msgstr ""
+
+#: init.lua
+msgid "Show day count since world creation"
+msgstr ""
+
+#: init.lua
+msgid "Current day is @1"
+msgstr ""
+
+#: init.lua
+msgid "<action>"
+msgstr ""
+
+#: init.lua
+msgid "Show chat action (e.g., '/me orders a pizza' displays '<player name> orders a pizza')"
+msgstr ""
+
+#: init.lua
+msgid "[<name>]"
+msgstr ""
+
+#: init.lua
+msgid "Show privileges of yourself"
+msgstr ""
+
+#: init.lua
+msgid "Player @1 does not exist."
+msgstr ""
+
+#: init.lua
+msgid "Privileges of @1: @2"
+msgstr ""
+
+#: init.lua
+msgid "<privilege>"
+msgstr ""
+
+#: init.lua
+msgid "Return list of all online players with privilege."
+msgstr ""
+
+#: init.lua
+msgid "Invalid parameters (see /help haspriv)"
+msgstr ""
+
+#: init.lua
+msgid "Unknown privilege!"
+msgstr ""
+
+#: init.lua
+msgid "Players online with the '@1' privilege: @2"
+msgstr ""
+
+#: init.lua
+msgid "<name> (<privilege> | all)"
+msgstr ""
+
+#: init.lua
+msgid "Give privileges to player"
+msgstr ""
+
+#: init.lua
+msgid "Invalid parameters (see /help grant)"
+msgstr ""
+
+#: init.lua
+msgid "<privilege> | all"
+msgstr ""
+
+#: init.lua
+msgid "Grant privileges to yourself"
+msgstr ""
+
+#: init.lua
+msgid "Invalid parameters (see /help grantme)"
+msgstr ""
+
+#: init.lua
+msgid "Remove privileges from player"
+msgstr ""
+
+#: init.lua
+msgid "Invalid parameters (see /help revoke)"
+msgstr ""
+
+#: init.lua
+msgid "@1 revoked privileges from you: @2"
+msgstr ""
+
+#: init.lua
+msgid "Privileges of @1: @2"
+msgstr ""
+
+#: init.lua
+msgid "<name> <password>"
+msgstr ""
+
+#: init.lua
+msgid "Set player's password"
+msgstr ""
+
+#: init.lua
+msgid "Name field required"
+msgstr ""
+
+#: init.lua
+msgid "Your password was @1 by @2"
+msgstr ""
+
+#: init.lua
+msgid "<name>"
+msgstr ""
+
+#: init.lua
+msgid "Set empty password for a player"
+msgstr ""
+
+#: init.lua
+msgid "Password of player \"@1\" cleared"
+msgstr ""
+
+#: init.lua
+msgid "Reload authentication data"
+msgstr ""
+
+#: init.lua
+msgid "Done."
+msgstr ""
+
+#: init.lua
+msgid "Failed."
+msgstr ""
+
+#: init.lua
+msgid "Remove a player's data"
+msgstr ""
+
+#: init.lua
+msgid "Player \"@1""\" removed."
+msgstr ""
+
+#: init.lua
+msgid "No such player \"@1""\" to remove."
+msgstr ""
+
+#: init.lua
+msgid "Player \"@1""\" is connected, cannot remove."
+msgstr ""
+
+#: init.lua
+msgid "Unhandled remove_player return code @1"
+msgstr ""
+
+#: init.lua
+msgid "<X>,<Y>,<Z> | <to_name> | (<name> <X>,<Y>,<Z>) | (<name> <to_name>)"
+msgstr ""
+
+#: init.lua
+msgid "Teleport to position or player"
+msgstr ""
+
+#: init.lua
+msgid "Cannot teleport out of map bounds!"
+msgstr ""
+
+#: init.lua
+msgid "Teleporting to @1."
+msgstr ""
+
+#: init.lua
+msgid "Teleporting to @1 at @2"
+msgstr ""
+
+#: init.lua
+msgid "You don't have permission to teleport other players (missing bring privilege)"
+msgstr ""
+
+#: init.lua
+msgid "Teleporting @1 to @2"
+msgstr ""
+
+#: init.lua
+msgid "Teleporting @1 to @2 at @3"
+msgstr ""
+
+#: init.lua
+msgid "Invalid parameters ("'@1'") or player not found (see /help teleport)"
+msgstr ""
+
+#: init.lua
+msgid "([-n] <name> <value>) | <name>"
+msgstr ""
+
+#: init.lua
+msgid "Set or read server configuration setting"
+msgstr ""
+
+#: init.lua
+msgid "Failed. Use '/set -n <name> <value>' to create a new setting."
+msgstr ""
+
+#: init.lua
+msgid "<not set>"
+msgstr ""
+
+#: init.lua
+msgid "Invalid parameters (see /help set)."
+msgstr ""
+
+#: init.lua
+msgid "(here [<radius>]) | (<pos1> <pos2>)"
+msgstr ""
+
+#: init.lua
+msgid "Load (or, if nonexistent, generate) map blocks contained in area pos1 to pos2 (<pos1> and <pos2> must be in parentheses)"
+msgstr ""
+
+#: init.lua
+msgid "Started emerge of area ranging from @1 to @2"
+msgstr ""
+
+#: init.lua
+msgid "Delete map blocks contained in area pos1 to pos2 (<pos1> and <pos2> must be in parentheses)"
+msgstr ""
+
+#: init.lua
+msgid "Successfully cleared area ranging from @1 to @2"
+msgstr ""
+
+#: init.lua
+msgid "Failed to clear one or more blocks in area"
+msgstr ""
+
+#: init.lua
+msgid "Resets lighting in the area between pos1 and pos2 (<pos1> and <pos2> must be in parentheses)"
+msgstr ""
+
+#: init.lua
+msgid "Successfully reset light in the area ranging from @1 to @2"
+msgstr ""
+
+#: init.lua
+msgid "Failed to load one or more blocks in area"
+msgstr ""
+
+#: init.lua
+msgid "<name> <ItemString> [<count> [<wear>]]"
+msgstr ""
+
+#: init.lua
+msgid "Give item to player"
+msgstr ""
+
+#: init.lua
+msgid "Name and ItemString required"
+msgstr ""
+
+#: init.lua
+msgid "<ItemString> [<count> [<wear>]]"
+msgstr ""
+
+#: init.lua
+msgid "Give item to yourself"
+msgstr ""
+
+#: init.lua
+msgid "ItemString required"
+msgstr ""
+
+#: init.lua
+msgid "<EntityName> [<X>,<Y>,<Z>]"
+msgstr ""
+
+#: init.lua
+msgid "Spawn entity at given (or your) position"
+msgstr ""
+
+#: init.lua
+msgid "EntityName required"
+msgstr ""
+
+#: init.lua
+msgid "Unable to spawn entity, player is nil"
+msgstr ""
+
+#: init.lua
+msgid "Cannot spawn an unknown entity"
+msgstr ""
+
+#: init.lua
+msgid "@1 spawned."
+msgstr ""
+
+#: init.lua
+msgid "[<range>] [<seconds>] [<limit>]"
+msgstr ""
+
+#: init.lua
+msgid "Check who last touched a node or a node near it within the time specified by <seconds>. Default: range = 0, seconds = 86400 = 24h, limit = 5"
+msgstr ""
+
+#: init.lua
+msgid "Rollback functions are disabled."
+msgstr ""
+
+#: init.lua
+msgid "That limit is too high!"
+msgstr ""
+
+#: init.lua
+msgid "Checking @1..."
+msgstr ""
+
+#: init.lua
+msgid "Nobody has touched the specified location in @1 seconds"
+msgstr ""
+
+#: init.lua
+msgid "%s %s %s -> %s %d seconds ago."
+msgstr ""
+
+#: init.lua
+msgid "Punch a node (range=@1, seconds=@2s, limit=@3)"
+msgstr ""
+
+#: init.lua
+msgid "(<name> [<seconds>]) | (:<actor> [<seconds>])"
+msgstr ""
+
+#: init.lua
+msgid "Revert actions of a player. Default for <seconds> is 60"
+msgstr ""
+
+#: init.lua
+msgid "Invalid parameters. See /help rollback and /help rollback_check."
+msgstr ""
+
+#: init.lua
+msgid "Reverting actions of @1 since @2 seconds."
+msgstr ""
+
+#: init.lua
+msgid "(log is too long to show)\n"
+msgstr ""
+
+#: init.lua
+msgid "Reverting actions @1"
+msgstr ""
+
+#: init.lua
+msgid "succeeded."
+msgstr ""
+
+#: init.lua
+msgid "FAILED."
+msgstr ""
+
+#: init.lua
+msgid "[<delay_in_seconds> | -1] [reconnect] [<message>]"
+msgstr ""
+
+#: init.lua
+msgid "Shutdown server (-1 cancels a delayed shutdown)"
+msgstr ""
+
+#: init.lua
+msgid "[<name> | <IP_address>]"
+msgstr ""
+
+#: init.lua
+msgid "Ban player or show ban list"
+msgstr ""
+
+#: init.lua
+msgid "The ban list is empty."
+msgstr ""
+
+#: init.lua
+msgid "Ban list: @1"
+msgstr ""
+
+#: init.lua
+msgid "No such player."
+msgstr ""
+
+#: init.lua
+msgid "Failed to ban player."
+msgstr ""
+
+#: init.lua
+msgid "Banned @1."
+msgstr ""
+
+#: init.lua
+msgid "Remove player ban"
+msgstr ""
+
+#: init.lua
+msgid "Failed to unban player/IP."
+msgstr ""
+
+#: init.lua
+msgid "Unbanned @1."
+msgstr ""
+
+#: init.lua
+msgid "<name> [<reason>]"
+msgstr ""
+
+#: init.lua
+msgid "Kick a player"
+msgstr ""
+
+#: init.lua
+msgid "Failed to kick player @1."
+msgstr ""
+
+#: init.lua
+msgid "Kicked @1."
+msgstr ""
+
+#: init.lua
+msgid "[full | quick]"
+msgstr ""
+
+#: init.lua
+msgid "Clear all objects in world"
+msgstr ""
+
+#: init.lua
+msgid "Invalid usage, see /help clearobjects."
+msgstr ""
+
+#: init.lua
+msgid "Clearing all objects. This may take long. You may experience a timeout (by @1)."
+msgstr ""
+
+#: init.lua
+msgid "*** Cleared all objects."
+msgstr ""
+
+#: init.lua
+msgid "<name> <message>"
+msgstr ""
+
+#: init.lua
+msgid "Send a private message."
+msgstr ""
+
+#: init.lua
+msgid "Invalid usage, see /help msg."
+msgstr ""
+
+#: init.lua
+msgid "The player @1 is not online."
+msgstr ""
+
+#: init.lua
+msgid "Message sent."
+msgstr ""
+
+#: init.lua
+msgid "Get the last login time of a player or yourself."
+msgstr ""
+
+#: init.lua
+msgid "Last login time was @1"
+msgstr ""
+
+#: init.lua
+msgid "Last login time is unknown."
+msgstr ""
+
+#: init.lua
+msgid "Clear the inventory of yourself or another player."
+msgstr ""
+
+#: init.lua
+msgid "You don't have permission to clear another player's inventory (missing privilege: server)"
+msgstr ""
+
+#: init.lua
+msgid "@1 cleared your inventory."
+msgstr ""
+
+#: init.lua
+msgid "Cleared @1's inventory."
+msgstr ""
+
+#: init.lua
+msgid "Player must be online to clear inventory!"
+msgstr ""
+
+#: init.lua
+msgid "Players can't be killed, damage has been disabled."
+msgstr ""
+
+#: init.lua
+msgid "Player @1 is not online."
+msgstr ""
+
+#: init.lua
+msgid "You are already dead."
+msgstr ""
+
+#: init.lua
+msgid "@1 is already dead."
+msgstr ""
+
+#: init.lua
+msgid "@1 has been killed."
+msgstr ""
+
+#: init.lua
+msgid "Kill player or yourself."
+msgstr ""
