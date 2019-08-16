@@ -30,11 +30,13 @@ That will show the server administrator to `player1`.
 Commands such as `/mods, /pulverize, /status` and `/days` do the same.
 
 ## Requirements
-This mod works with MT/MTG 5.0.0+ (may work on older versions).
+This mod works fine with MT/MTG 5.0.0+ (may work on older versions).
 
 ## License
 [LGPLv2.1](https://Panquesito7/enhanced-builtin-commands/LICENSE) for everything.
 
 ## Issues, bugs, and feature requests
 Pull requests and issues are welcome.  
+Create a pull request if you want to add more languages.  
+
 This mod works fine, but may have some minimal issues that I haven't noticed.
