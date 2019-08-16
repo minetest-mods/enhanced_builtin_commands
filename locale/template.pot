@@ -113,6 +113,10 @@ msgid "Unable to pulverize, no player."
 msgstr ""
 
 #: init.lua
+msgid "Unable to pulverize, no item in hand."
+msgstr ""
+
+#: init.lua
 msgid "An item was pulverized."
 msgstr ""
 
