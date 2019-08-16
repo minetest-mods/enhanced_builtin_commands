@@ -1,5 +1,6 @@
 # Enhanced Builtin Commands
-Adds intllib support for builtin commands (and adds other features).
+Adds intllib support for builtin commands (and adds other features).  
+Enhanced Builtin Commands is _Rolling Release_, which means you can use the latest commits without fear.
 
 ## Installation
 - Unzip the archive, rename the folder to enhanced_builtin_commands and
@@ -39,4 +40,4 @@ This mod works fine with MT/MTG 5.0.0+ (may work on older versions).
 Pull requests and issues are welcome.  
 Create a pull request if you want to add more languages.  
 
-This mod is WIP, but works really well, but may have some minimal issues that I haven't noticed.
+This mod is WIP, but works really well. However, it may have some minimal issues that I haven't noticed.
