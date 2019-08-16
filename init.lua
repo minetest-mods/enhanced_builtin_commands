@@ -152,7 +152,7 @@ core.override_chatcommand("privs", {
 		if not core.player_exists(name) then
 			return false, S("Player @1 does not exist.", name)
 		end
-		return true, S("Privileges of @1: @2", name, core.privs_to_string(core.get_player_privs(name)))
+		return true, S("Privileges of @1: @2", name, core.privs_to_string(core.get_player_privs(name), ' '))
 	end,
 })
 
