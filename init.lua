@@ -92,7 +92,7 @@ core.override_chatcommand("pulverize", {
 			if not core.get_player_by_name(param):get_wielded_item():is_empty() then
 			core.get_player_by_name(param):set_wielded_item(nil)
 			core.chat_send_player(param, S("An item was pulverized by @1.", name))
-			core.chat_send_player(name, "Sent to @1.", param)
+			core.chat_send_player(name, S("Sent to @1.", param))
 			end
 		else
 			return false, S("You don't have permission to run this command (missing privilege: server).")
@@ -478,7 +478,7 @@ core.override_chatcommand("emergeblocks", {
 	description = S("Load (or, if nonexistent, generate) map blocks contained in area pos1 to pos2 (<pos1> and <pos2> must be in parentheses)"),
 	privs = {server = true},
 	func = function(name, param)
-		local p1, p2 = parse_range_str(name, param)
+		local p1, p2 = enhanced_builtin_commands.parse_range_str(name, param)
 		if p1 == false then
 			return false, p2
 		end
@@ -502,7 +502,7 @@ core.override_chatcommand("deleteblocks", {
 	description = S("Delete map blocks contained in area pos1 to pos2 (<pos1> and <pos2> must be in parentheses)"),
 	privs = {server = true},
 	func = function(name, param)
-		local p1, p2 = parse_range_str(name, param)
+		local p1, p2 = enhanced_builtin_commands.parse_range_str(name, param)
 		if p1 == false then
 			return false, p2
 		end
@@ -520,7 +520,7 @@ core.override_chatcommand("fixlight", {
 	description = S("Resets lighting in the area between pos1 and pos2 (<pos1> and <pos2> must be in parentheses)"),
 	privs = {server = true},
 	func = function(name, param)
-		local p1, p2 = parse_range_str(name, param)
+		local p1, p2 = enhanced_builtin_commands.parse_range_str(name, param)
 		if p1 == false then
 			return false, p2
 		end
