@@ -75,9 +75,6 @@ core.override_chatcommand("pulverize", {
 			return false, S("Unable to pulverize, no player.")
 		end
 		local wielded_item = player:get_wielded_item()
-		--if wielded_item:is_empty() then
-			--return false, "Unable to pulverize, no item in hand."
-		--end
 		if param == "" then
 			if wielded_item:is_empty() then
 				return false, S("Unable to pulverize, no item in hand.")
@@ -114,7 +111,7 @@ core.override_chatcommand("status", {
 			end
 		elseif core.check_player_privs(name, {server = true}) then
 			core.chat_send_player(param, core.get_server_status(param, false))
-			core.chat_send_player(name, "Sent to @1.", param)
+			core.chat_send_player(name, S("Sent to @1.", param))
 		elseif not status then
 			return false, S("This command was disabled by a mod or game")
 		else
@@ -129,8 +126,8 @@ core.override_chatcommand("days", {
 		if param == "" then
 			return true, S("Current day is @1", core.get_day_count())
 		elseif core.check_player_privs(name, {server = true}) then
-			core.chat_send_player(param, "Current day is @1", core.get_day_count())
-			core.chat_send_player(name, "Sent to @1.", param)
+			core.chat_send_player(param, S("Current day is @1", core.get_day_count()))
+			core.chat_send_player(name, S("Sent to @1."), param)
 		else
 			return false, S("You don't have permission to run this command (missing privilege: server).")
 		end
@@ -304,7 +301,6 @@ core.override_chatcommand("clearpassword", {
 		core.set_player_password(toname, '')
 
 		core.log("action", name .. " clears password of " .. toname .. ".")
-
 		return true, S("Password of player \"@1\" cleared", toname)
 	end,
 })
