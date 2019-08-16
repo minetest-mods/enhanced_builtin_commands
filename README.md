@@ -39,4 +39,4 @@ This mod works fine with MT/MTG 5.0.0+ (may work on older versions).
 Pull requests and issues are welcome.  
 Create a pull request if you want to add more languages.  
 
-This mod works fine, but may have some minimal issues that I haven't noticed.
+This mod is WIP, but works really well, but may have some minimal issues that I haven't noticed.
