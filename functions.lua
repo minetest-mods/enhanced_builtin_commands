@@ -144,3 +144,22 @@ function enhanced_builtin_commands.handle_kill_command(killer, victim)
 	victimref:set_hp(0)
 	return true, S("@1 has been killed.", victim)
 end
+
+function enhanced_builtin_commands.parse_range_str(player_name, str)
+	local p1, p2
+	local args = str:split(" ")
+
+	if args[1] == "here" then
+		p1, p2 = core.get_player_radius_area(player_name, tonumber(args[2]))
+		if p1 == nil then
+			return false, S("Unable to get player @1 position", player_name)
+		end
+	else
+		p1, p2 = core.string_to_area(str)
+		if p1 == nil then
+			return false, S("Incorrect area format. Expected: (x1,y1,z1) (x2,y2,z2)")
+		end
+	end
+
+	return p1, p2
+end
