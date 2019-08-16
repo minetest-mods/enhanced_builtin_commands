@@ -34,10 +34,10 @@ Commands such as `/mods, /pulverize, /status` and `/days` do the same.
 This mod works fine with MT/MTG 5.0.0+ (may work on older versions).
 
 ## License
-[LGPLv2.1](https://Panquesito7/enhanced-builtin-commands/LICENSE) for everything.
+[LGPLv2.1](https://Panquesito7/enhanced_builtin_commands/LICENSE) for everything.
 
 ## Issues, bugs, and feature requests
-Pull requests and issues are welcome.  
-Create a pull request if you want to add more languages.  
+Pull requests and [issues](https://github.com/Panquesito7/enhanced_builtin_commands/issues/new) are welcome.  
+Create a [pull request](https://github.com/Panquesito7/enhanced_builtin_commands/compare) if you want to add new features/new languages. 
 
-This mod is WIP, but works really well. However, it may have some minimal issues that I haven't noticed.
+This mod is WIP, but works really well. However, there mightbe some minimal issues that I haven't noticed.
