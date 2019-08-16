@@ -113,6 +113,10 @@ msgid "Unable to pulverize, no player."
 msgstr "Incapaz de destruir, jugador no disponible."
 
 #: init.lua
+msgid "Unable to pulverize, no item in hand."
+msgstr "Incapaz de destruir, artículo no disponible."
+
+#: init.lua
 msgid "An item was pulverized."
 msgstr "El artículo ha sido destruido."
 
