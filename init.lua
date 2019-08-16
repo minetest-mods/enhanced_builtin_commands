@@ -90,9 +90,9 @@ core.override_chatcommand("pulverize", {
 			core.log("action", name .. " pulverized \"" ..
 				core.get_player_by_name(param):get_wielded_item():get_name() .. " " .. core.get_player_by_name(param):get_wielded_item():get_count() .. "\" from " .. param .. "")
 			if not core.get_player_by_name(param):get_wielded_item():is_empty() then
-			core.get_player_by_name(param):set_wielded_item(nil)
-			core.chat_send_player(param, S("An item was pulverized by @1.", name))
-			core.chat_send_player(name, S("Sent to @1.", param))
+				core.get_player_by_name(param):set_wielded_item(nil)
+				core.chat_send_player(param, S("An item was pulverized by @1.", name))
+				core.chat_send_player(name, S("Sent to @1.", param))
 			end
 		else
 			return false, S("You don't have permission to run this command (missing privilege: server).")
@@ -127,7 +127,7 @@ core.override_chatcommand("days", {
 			return true, S("Current day is @1", core.get_day_count())
 		elseif core.check_player_privs(name, {server = true}) then
 			core.chat_send_player(param, S("Current day is @1", core.get_day_count()))
-			core.chat_send_player(name, S("Sent to @1."), param)
+			core.chat_send_player(name, S("Sent to @1.", param))
 		else
 			return false, S("You don't have permission to run this command (missing privilege: server).")
 		end
@@ -301,6 +301,7 @@ core.override_chatcommand("clearpassword", {
 		core.set_player_password(toname, '')
 
 		core.log("action", name .. " clears password of " .. toname .. ".")
+
 		return true, S("Password of player \"@1\" cleared", toname)
 	end,
 })
