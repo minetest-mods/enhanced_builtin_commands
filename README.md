@@ -40,4 +40,4 @@ This mod works fine with MT/MTG 5.0.0+ (may work on older versions).
 Pull requests and [issues](https://github.com/Panquesito7/enhanced_builtin_commands/issues/new) are welcome.  
 Create a [pull request](https://github.com/Panquesito7/enhanced_builtin_commands/compare) if you want to add new features/new languages. 
 
-This mod is WIP, but works really well. However, there mightbe some minimal issues that I haven't noticed.
+This mod is WIP, but works really well. However, there might be some minimal issues that I haven't noticed.
