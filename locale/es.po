@@ -150,7 +150,7 @@ msgstr "<acción>"
 
 #: init.lua
 msgid "Show chat action (e.g., '/me orders a pizza' displays '<player name> orders a pizza')"
-msgstr "Mostrar acción de chat (p.ej., '/me pide una pizza' muestra '<ugador> pide una pizza')."
+msgstr "Mostrar acción de chat (p.ej., '/me pide una pizza' muestra '<jugador> pide una pizza')."
 
 #: init.lua
 msgid "[<name>]"
