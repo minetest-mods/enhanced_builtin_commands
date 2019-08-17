@@ -16,8 +16,6 @@ For further information or help, see:
 https://wiki.minetest.net/Installing_Mods
 
 ## Dependencies
-There are no dependencies.   
-#### Optional dependencies are:
 - [intllib](https://github.com/minetest-mods/intllib)
 
 ## Features
