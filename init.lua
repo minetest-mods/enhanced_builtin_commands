@@ -1,5 +1,5 @@
 --[[
-A mod that enhances the builtin commands: adds support for intllib...and more.
+A mod that enhances the builtin commands: adds support for intllib, and more.
 Copyright (C) 2019 Panquesito7
 
 This library is free software; you can redistribute it and/or
@@ -491,8 +491,8 @@ core.override_chatcommand("emergeblocks", {
 			requestor_name = name
 		}
 
-		core.emerge_area(p1, p2, emergeblocks_callback, context)
-		core.after(2, emergeblocks_progress_update, context)
+		core.emerge_area(p1, p2, enhanced_builtin_commands.emergeblocks_callback, context)
+		core.after(2, enhanced_builtin_commands.emergeblocks_progress_update, context)
 
 		return true, S("Started emerge of area ranging from @1 to @2", core.pos_to_string(p1, 1), core.pos_to_string(p2, 1))
 	end,
