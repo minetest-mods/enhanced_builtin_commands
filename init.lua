@@ -790,8 +790,7 @@ core.override_chatcommand("msg", {
 		end
 		core.log("action", "PM from " .. name .. " to " .. sendto
 				.. ": " .. message)
-		core.chat_send_player(sendto, "PM from " .. name .. ": "
-				.. message)
+		core.chat_send_player(sendto, S("PM from @1: @2", name, message))
 		return true, S("Message sent.")
 	end,
 })
@@ -847,3 +846,19 @@ core.override_chatcommand("kill", {
 		return enhanced_builtin_commands.handle_kill_command(name, param == "" and name or param)
 	end,
 })
+
+if INIT == "client" then
+	core.override_chatcommand("help", {
+		params = S("[all | <cmd>]"),
+		description = S("Get help for commands"),
+		func = function(param)
+			return enhanced_builtin_commands.do_help_cmd(nil, param)
+		end,
+	})
+else
+	core.override_chatcommand("help", {
+		params = S("[all | privs | <cmd>]"),
+		description = S("Get help for commands or list privileges"),
+		func = enhanced_builtin_commands.do_help_cmd,
+	})
+end
