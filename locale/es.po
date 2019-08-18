@@ -84,6 +84,22 @@ msgstr "Incapaz de obtener la posición de @1."
 msgid "Incorrect area format. Expected: (x1,y1,z1) (x2,y2,z2)"
 msgstr "Formato de área incorrecta. Exceptuado: (x1,y1,z1) (x2,y2,z2)"
 
+#: functions.lua
+msgid "Available commands: @1"
+msgstr "Comandos disponibles: @1"
+
+#: functions.lua
+msgid "Use '@1help <cmd>' to get more information, or '@1help all' to list everything."
+msgstr "Usa '@1help <comando>' para obtener mas informacion, o use '@1help all' para enumerar todo."
+
+#: functions.lua
+msgid "Available privileges:\n@1"
+msgstr "Privilegios disponibles:\n@1"
+
+#: functions.lua
+msgid "Command not available: @1"
+msgstr "Comando no disponible: @1"
+
 #: init.lua
 msgid "Show the name of the server owner"
 msgstr "Muestra el nombre del administrador del servidor."
@@ -601,6 +617,10 @@ msgid "The player @1 is not online."
 msgstr "El jugador @1 no esta en línea."
 
 #: init.lua
+msgid "PM from @1: @2"
+msgstr "Mensaje privado de @1: @2"
+
+#: init.lua
 msgid "Message sent."
 msgstr "El mensaje ha sido mandado correctamente."
 
@@ -659,3 +679,19 @@ msgstr "@1 ha sido destruido."
 #: init.lua
 msgid "Kill player or yourself."
 msgstr "Destruir un jugador o tu mismo destruirte."
+
+#: init.lua
+msgid "[all | <cmd>]"
+msgstr "[all | <comando>]"
+
+#: init.lua
+msgid "Get help for commands"
+msgstr "Obtenga ayuda para los comandos disponbiles."
+
+#: init.lua
+msgid "[all | privs | <cmd>]"
+msgstr "[all | privs | <comando>]"
+
+#: init.lua
+msgid "Get help for commands or list privileges"
+msgstr "Obtenga ayuda para los comandos disponbiles o privilegios de la lista."
