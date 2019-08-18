@@ -163,3 +163,52 @@ function enhanced_builtin_commands.parse_range_str(player_name, str)
 
 	return p1, p2
 end
+
+local cmd_marker = "/"
+
+function enhanced_builtin_commands.do_help_cmd(name, param)
+	function enhanced_builtin_commands.format_help_line(cmd, def)
+		local msg = core.colorize("#00ffff", cmd_marker .. cmd)
+		if def.params and def.params ~= "" then
+			msg = msg .. " " .. def.params
+		end
+		if def.description and def.description ~= "" then
+			msg = msg .. ": " .. def.description
+		end
+		return msg
+	end
+	if param == "" then
+		local cmds = {}
+		for cmd, def in pairs(core.registered_chatcommands) do
+			if INIT == "client" or core.check_player_privs(name, def.privs) then
+				cmds[#cmds + 1] = cmd
+			end
+		end
+		table.sort(cmds)
+		return true, S("Available commands: @1", table.concat(cmds, " ")) .. "\n" .. S("Use '@1help <cmd>' to get more information, or '@1help all' to list everything.", cmd_marker)
+	elseif param == "all" then
+		local cmds = {}
+		for cmd, def in pairs(core.registered_chatcommands) do
+			if INIT == "client" or core.check_player_privs(name, def.privs) then
+				cmds[#cmds + 1] = enhanced_builtin_commands.format_help_line(cmd, def)
+			end
+		end
+		table.sort(cmds)
+		return true, S("Available commands: @1", "\n"..table.concat(cmds, "\n"))
+	elseif INIT == "game" and param == "privs" then
+		local privs = {}
+		for priv, def in pairs(core.registered_privileges) do
+			privs[#privs + 1] = priv .. ": " .. def.description
+		end
+		table.sort(privs)
+		return true, S("Available privileges:\n@1", table.concat(privs, "\n"))
+	else
+		local cmd = param
+		local def = core.registered_chatcommands[cmd]
+		if not def then
+			return false, S("Command not available: @1", cmd)
+		else
+			return true, enhanced_builtin_commands.format_help_line(cmd, def)
+		end
+	end
+end
