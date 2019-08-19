@@ -100,6 +100,106 @@ msgstr "Privilegios disponibles:\n@1"
 msgid "Command not available: @1"
 msgstr "Comando no disponible: @1"
 
+#: functions.lua
+msgid "Can interact with things and modify the world"
+msgstr "Puede interactuar con cosas y modificar el mundo"
+
+#: functions.lua
+msgid "Can speak in chat"
+msgstr "Puede mandar mensajes en el chat"
+
+#: functions.lua
+msgid "Can modify 'shout' and 'interact' privileges"
+msgstr "Puede modificar los privilegios 'shout' e 'interact'"
+
+#: functions.lua
+msgid "Can modify privileges"
+msgstr "Puede modificar los privilegios (de otros)"
+
+#: functions.lua
+msgid "Can teleport self"
+msgstr "Puede teletransportarse"
+
+#: functions.lua
+msgid "Can teleport other players"
+msgstr "Puede teletransportar otros jugadores"
+
+#: functions.lua
+msgid "Can set the time of day using /time"
+msgstr "Puede cambiar el tiempo del día usando /time"
+
+#: functions.lua
+msgid "Can do server maintenance stuff"
+msgstr "Puede hacer cosas de mantenimiento del servidor"
+
+#: functions.lua
+msgid "Can bypass node protection in the world"
+msgstr "Puede evitar la protección de nodos en el mundo"
+
+#: functions.lua
+msgid "Can ban and unban players"
+msgstr "Puede prohibir y eliminar una prohibición de un jugador"
+
+#: functions.lua
+msgid "Can kick players"
+msgstr "Puede sacar a los jugadores"
+
+#: functions.lua
+msgid "Can use /give and /giveme"
+msgstr "Puede usar /give y /giveme"
+
+#: functions.lua
+msgid "Can use /setpassword and /clearpassword"
+msgstr "Puede usar /setpassword y /clearpassword"
+
+#: functions.lua
+msgid "Can use fly mode"
+msgstr "Puede usar el modo de volar"
+
+#: functions.lua
+msgid "Can use fast mode"
+msgstr "Puede usar el modo rápido"
+
+#: functions.lua
+msgid "Can fly through solid nodes using noclip mode"
+msgstr "Puede volar a través de nodos sólidos usando el modo noclip"
+
+#: functions.lua
+msgid "Can use the rollback functionality"
+msgstr "Puede usar la funcionalidad de reversión"
+
+#: functions.lua
+msgid "Allows enabling various debug options that may affect gameplay"
+msgstr "Permite habilitar varias opciones de depuración que pueden afectar el juego"
+
+#: functions.lua
+msgid "Can use /sethome and /home"
+msgstr "Puede usar /sethome y /home"
+
+#: functions.lua
+msgid "Teleport you to your home point"
+msgstr "Teletransportarse a tu posición de origen."
+
+#: functions.lua
+msgid "Teleported to home!"
+msgstr "¡Teletransportado a casa!"
+
+#: functions.lua
+msgid "Set a home using /sethome"
+msgstr "Establecer una casa usando /sethome"
+
+#: functions.lua
+msgid "Set your home point"
+msgstr "Establece tu punto de origen."
+
+#: functions.lua
+msgid "Home set!"
+msgstr "¡Conjunto de casa!"
+
+#: functions.lua
+msgid "Player not found!"
+msgstr "¡Jugador no encontrado!"
+
 #: init.lua
 msgid "Show the name of the server owner"
 msgstr "Muestra el nombre del administrador del servidor."
