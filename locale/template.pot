@@ -100,6 +100,106 @@ msgstr ""
 msgid "Command not available: @1"
 msgstr ""
 
+#: functions.lua
+msgid "Can interact with things and modify the world"
+msgstr ""
+
+#: functions.lua
+msgid "Can speak in chat"
+msgstr ""
+
+#: functions.lua
+msgid "Can modify 'shout' and 'interact' privileges"
+msgstr ""
+
+#: functions.lua
+msgid "Can modify privileges"
+msgstr ""
+
+#: functions.lua
+msgid "Can teleport self"
+msgstr ""
+
+#: functions.lua
+msgid "Can teleport other players"
+msgstr ""
+
+#: functions.lua
+msgid "Can set the time of day using /time"
+msgstr ""
+
+#: functions.lua
+msgid "Can do server maintenance stuff"
+msgstr ""
+
+#: functions.lua
+msgid "Can bypass node protection in the world"
+msgstr ""
+
+#: functions.lua
+msgid "Can ban and unban players"
+msgstr ""
+
+#: functions.lua
+msgid "Can kick players"
+msgstr ""
+
+#: functions.lua
+msgid "Can use /give and /giveme"
+msgstr ""
+
+#: functions.lua
+msgid "Can use /setpassword and /clearpassword"
+msgstr ""
+
+#: functions.lua
+msgid "Can use fly mode"
+msgstr ""
+
+#: functions.lua
+msgid "Can use fast mode"
+msgstr ""
+
+#: functions.lua
+msgid "Can fly through solid nodes using noclip mode"
+msgstr ""
+
+#: functions.lua
+msgid "Can use the rollback functionality"
+msgstr ""
+
+#: functions.lua
+msgid "Allows enabling various debug options that may affect gameplay"
+msgstr ""
+
+#: functions.lua
+msgid "Can use /sethome and /home"
+msgstr ""
+
+#: functions.lua
+msgid "Teleport you to your home point"
+msgstr ""
+
+#: functions.lua
+msgid "Teleported to home!"
+msgstr ""
+
+#: functions.lua
+msgid "Set a home using /sethome"
+msgstr ""
+
+#: functions.lua
+msgid "Set your home point"
+msgstr ""
+
+#: functions.lua
+msgid "Home set!"
+msgstr ""
+
+#: functions.lua
+msgid "Player not found!"
+msgstr ""
+
 #: init.lua
 msgid "Show the name of the server owner"
 msgstr ""
