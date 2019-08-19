@@ -862,3 +862,32 @@ else
 		func = enhanced_builtin_commands.do_help_cmd,
 	})
 end
+
+-- Minetest Game commands
+if minetest.get_modpath("sethome") then
+	core.override_chatcommand("home", {
+		description = S("Teleport you to your home point"),
+		privs = {home = true},
+		func = function(name)
+			if sethome.go(name) then
+				return true, S("Teleported to home!")
+			end
+			return false, S("Set a home using /sethome")
+		end,
+	})
+
+	core.override_chatcommand("sethome", {
+		description = S("Set your home point"),
+		privs = {home = true},
+		func = function(name)
+			name = name or "" -- fallback to blank name if nil
+			local player = core.get_player_by_name(name)
+			if player and sethome.set(name, player:get_pos()) then
+				return true, S("Home set!")
+			end
+			return false, S("Player not found!")
+		end,
+	})
+		else
+	return
+end
