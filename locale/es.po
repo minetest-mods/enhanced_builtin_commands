@@ -200,6 +200,18 @@ msgstr "¡Conjunto de casa!"
 msgid "Player not found!"
 msgstr "¡Jugador no encontrado!"
 
+#: functions.lua
+msgid "*** @1 joined the game."
+msgstr "*** @1 se unió al juego."
+
+#: functions.lua
+msgid "*** @1 left the game."
+msgstr "*** @1 dejó el juego."
+
+#: functions.lua
+msgid "@1 (timed out)"
+msgstr "@1 (tiempo muerto)."
+
 #: init.lua
 msgid "Show the name of the server owner"
 msgstr "Muestra el nombre del administrador del servidor."
@@ -795,3 +807,11 @@ msgstr "[all | privs | <comando>]"
 #: init.lua
 msgid "Get help for commands or list privileges"
 msgstr "Obtenga ayuda para los comandos disponbiles o privilegios de la lista."
+
+#: init.lua
+msgid "Kill yourself to respawn"
+msgstr "Destruirse para reaparecer."
+
+#: functions.lua
+msgid "No static_spawnpoint defined"
+msgstr "'static_spawnpoint' no definido."
