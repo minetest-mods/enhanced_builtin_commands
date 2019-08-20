@@ -16,6 +16,7 @@ Contributors are welcome. Here's how you can help:
 - You must create a new branch for your new features/bugfixes.
 - You **must** be polite (while commenting on or opening a pull request).
 - Review before opening the pull request (if it has any issues, etc.).
+- You must enable the checkbox "Allow edits from maintainers".
 - Off-topic is not allowed.
 
 ## For collaborators
