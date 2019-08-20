@@ -212,3 +212,123 @@ function enhanced_builtin_commands.do_help_cmd(name, param)
 		end
 	end
 end
+
+-- Create a function to override a privilege
+function enhanced_builtin_commands.override_privilege(name, redefinition)
+	local privilege = core.registered_privileges[name]
+	assert(privilege, "Attempt to override non-existent privilege "..name)
+	for k, v in pairs(redefinition) do
+		rawset(privilege, k, v)
+	end
+	core.registered_privileges[name] = privilege
+end
+
+-- Override builtin privileges
+-- Primary privileges
+enhanced_builtin_commands.override_privilege("interact", {
+	description = S("Can interact with things and modify the world"),
+	give_to_singleplayer = true,
+	give_to_admin = true,
+})
+
+enhanced_builtin_commands.override_privilege("shout", {
+	description = S("Can speak in chat"),
+	give_to_singleplayer = true,
+	give_to_admin = true,
+})
+
+enhanced_builtin_commands.override_privilege("basic_privs", { 
+	description = S("Can modify 'shout' and 'interact' privileges"),
+	give_to_singleplayer = true,
+	give_to_admin = true,
+})
+
+enhanced_builtin_commands.override_privilege("privs", { 
+	description = S("Can modify privileges"),
+	give_to_singleplayer = true,
+	give_to_admin = true,
+})	
+
+-- Other privileges
+enhanced_builtin_commands.override_privilege("teleport", {
+	description = S("Can teleport self"),
+	give_to_singleplayer = false,
+})
+
+enhanced_builtin_commands.override_privilege("bring", {
+	description = S("Can teleport other players"),
+	give_to_singleplayer = false,
+})
+
+enhanced_builtin_commands.override_privilege("settime", {
+	description = S("Can set the time of day using /time"),
+	give_to_singleplayer = false,
+})
+
+enhanced_builtin_commands.override_privilege("server", {
+	description = S("Can do server maintenance stuff"),
+	give_to_singleplayer = false,
+	give_to_admin = true,
+})
+
+enhanced_builtin_commands.override_privilege("protection_bypass", {
+	description = S("Can bypass node protection in the world"),
+	give_to_singleplayer = false,
+})
+
+enhanced_builtin_commands.override_privilege("ban", {
+	description = S("Can ban and unban players"),
+	give_to_singleplayer = false,
+	give_to_admin = true,
+})
+
+enhanced_builtin_commands.override_privilege("kick", {
+	description = S("Can kick players"),
+	give_to_singleplayer = false,
+	give_to_admin = true,
+})
+
+enhanced_builtin_commands.override_privilege("give", {
+	description = S("Can use /give and /giveme"),
+	give_to_singleplayer = false,
+})
+
+enhanced_builtin_commands.override_privilege("password", {
+	description = S("Can use /setpassword and /clearpassword"),
+	give_to_singleplayer = false,
+	give_to_admin = true,
+})
+
+enhanced_builtin_commands.override_privilege("fly", {
+	description = S("Can use fly mode"),
+	give_to_singleplayer = false,
+})
+
+enhanced_builtin_commands.override_privilege("fast", {
+	description = S("Can use fast mode"),
+	give_to_singleplayer = false,
+})
+
+enhanced_builtin_commands.override_privilege("noclip", {
+	description = S("Can fly through solid nodes using noclip mode"),
+	give_to_singleplayer = false,
+})
+
+enhanced_builtin_commands.override_privilege("rollback", {
+	description = S("Can use the rollback functionality"),
+	give_to_singleplayer = false,
+})
+
+enhanced_builtin_commands.override_privilege("debug", {
+	description = S("Allows enabling various debug options that may affect gameplay"),
+	give_to_singleplayer = false,
+	give_to_admin = true,
+})
+
+-- Minetest Game privileges
+if core.get_modpath("sethome") then
+	enhanced_builtin_commands.override_privilege("home", {
+		description = S("Can use /sethome and /home"),
+		give_to_singleplayer = false,
+	})
+end
