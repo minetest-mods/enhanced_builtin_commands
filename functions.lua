@@ -1,5 +1,5 @@
 --[[
-Re-write functions (from builtin commands).
+Re-write some functions (from builtin).
 Copyright (C) 2019 Panquesito7
 
 This library is free software; you can redistribute it and/or
@@ -333,4 +333,19 @@ if core.get_modpath("sethome") then
 		description = S("Can use /sethome and /home"),
 		give_to_singleplayer = false,
 	})
+end
+
+-- When player joins/leaves, send a translatable message
+function core.send_join_message(player_name)
+	if not core.is_singleplayer() then
+		core.chat_send_all(S("*** @1 joined the game.", player_name))
+	end
+end
+
+function core.send_leave_message(player_name, timed_out)
+	local announcement = S("*** @1 left the game.", player_name)
+	if timed_out then
+		announcement = S("@1 (timed out)", announcement)
+	end
+	core.chat_send_all(announcement)
 end
