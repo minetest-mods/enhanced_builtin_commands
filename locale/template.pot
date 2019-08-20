@@ -212,6 +212,10 @@ msgstr ""
 msgid "@1 (timed out)"
 msgstr ""
 
+#: functions.lua
+msgid "(no description)"
+msgstr ""
+
 #: init.lua
 msgid "Show the name of the server owner"
 msgstr ""
