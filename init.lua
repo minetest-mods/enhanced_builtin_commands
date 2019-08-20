@@ -864,7 +864,7 @@ else
 end
 
 -- Minetest Game commands
-if minetest.get_modpath("sethome") then
+if core.get_modpath("sethome") then
 	core.override_chatcommand("home", {
 		description = S("Teleport you to your home point"),
 		privs = {home = true},
@@ -888,6 +888,4 @@ if minetest.get_modpath("sethome") then
 			return false, S("Player not found!")
 		end,
 	})
-		else
-	return
 end
