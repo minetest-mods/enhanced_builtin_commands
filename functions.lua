@@ -349,3 +349,26 @@ function core.send_leave_message(player_name, timed_out)
 	end
 	core.chat_send_all(announcement)
 end
+
+-- Override "core.register_privilege"
+function core.register_privilege(name, param)
+	local function fill_defaults(def)
+		if def.give_to_singleplayer == nil then
+			def.give_to_singleplayer = true
+		end
+		if def.give_to_admin == nil then
+			def.give_to_admin = def.give_to_singleplayer
+		end
+		if def.description == nil then
+			def.description = S("(no description)") -- This makes the difference! :)
+		end
+	end
+	local def = {}
+	if type(param) == "table" then
+		def = param
+	else
+		def = {description = param}
+	end
+	fill_defaults(def)
+	core.registered_privileges[name] = def
+end
