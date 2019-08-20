@@ -212,6 +212,10 @@ msgstr "*** @1 dejó el juego."
 msgid "@1 (timed out)"
 msgstr "@1 (tiempo muerto)."
 
+#: functions.lua
+msgid "(no description)"
+msgstr "(sin descripción)"
+
 #: init.lua
 msgid "Show the name of the server owner"
 msgstr "Muestra el nombre del administrador del servidor."
