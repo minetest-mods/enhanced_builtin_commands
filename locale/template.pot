@@ -200,6 +200,18 @@ msgstr ""
 msgid "Player not found!"
 msgstr ""
 
+#: functions.lua
+msgid "*** @1 joined the game."
+msgstr ""
+
+#: functions.lua
+msgid "*** @1 left the game."
+msgstr ""
+
+#: functions.lua
+msgid "@1 (timed out)"
+msgstr ""
+
 #: init.lua
 msgid "Show the name of the server owner"
 msgstr ""
@@ -794,4 +806,12 @@ msgstr ""
 
 #: init.lua
 msgid "Get help for commands or list privileges"
+msgstr ""
+
+#: init.lua
+msgid "Kill yourself to respawn"
+msgstr ""
+
+#: functions.lua
+msgid "No static_spawnpoint defined"
 msgstr ""
