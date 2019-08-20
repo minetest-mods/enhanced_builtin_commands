@@ -19,6 +19,7 @@ https://wiki.minetest.net/Installing_Mods
 - [intllib](https://github.com/minetest-mods/intllib)
 ### Optional dependencies
 - sethome (included in [minetest_game](https://github.com/minetest/minetest_game))
+- game_commands (included in [minetest_game](https://github.com/minetest/minetest_game))
 
 ## Features
 This mod overrides all builtin-chatcommands to add support for intllib (currently, there's only translation for spanish).   
