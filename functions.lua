@@ -216,7 +216,9 @@ end
 -- Create a function to override a privilege
 function enhanced_builtin_commands.override_privilege(name, redefinition)
 	local privilege = core.registered_privileges[name]
-	assert(privilege, "Attempt to override non-existent privilege "..name)
+	if not privilege then
+		error("Attempt to override non-existent privilege " .. name)
+	end
 	for k, v in pairs(redefinition) do
 		rawset(privilege, k, v)
 	end
