@@ -176,7 +176,8 @@ core.override_chatcommand("haspriv", {
 				table.insert(players_with_priv, player_name)
 			end
 		end	
-		return true, S("Players online with the '@1' privilege: @2", param, table.concat(players_with_priv, ", "))
+		return true, S("Players online with the \"@1\" privilege: @2", param,
+			table.concat(players_with_priv, ", "))
 	end	
 })
 
