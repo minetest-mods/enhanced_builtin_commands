@@ -325,7 +325,7 @@ msgid "Unknown privilege!"
 msgstr ""
 
 #: init.lua
-msgid "Players online with the '@1' privilege: @2"
+msgid "Players online with the \"@1\" privilege: @2"
 msgstr ""
 
 #: init.lua
