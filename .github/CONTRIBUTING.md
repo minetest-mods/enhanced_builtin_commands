@@ -26,4 +26,6 @@ Contributors are welcome. Here's how you can help:
 - Create a pull request if you want to add new features (with a new branch).
 - Approve pull request before merge if it looks correct.
 - Request changes when really needed, else, just comment.
+- When adding new features, create a new branch.
+- You must ask the owner when doing something serious/changing something (if you're unsure).
 - Off-topic is allowed, but only for support.
