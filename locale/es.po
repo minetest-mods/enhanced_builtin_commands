@@ -325,8 +325,8 @@ msgid "Unknown privilege!"
 msgstr "¡Privilegio desconocido!"
 
 #: init.lua
-msgid "Players online with the '@1' privilege: @2"
-msgstr "Jugadores en línea con el privilegio '@1': @2"
+msgid "Players online with the \"@1\" privilege: @2"
+msgstr "Jugadores en línea con el privilegio \"@1\": @2"
 
 #: init.lua
 msgid "<name> (<privilege> | all)"
