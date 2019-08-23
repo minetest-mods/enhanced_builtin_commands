@@ -29,7 +29,7 @@ You can also run some commands for other players (optional):
 /admin player1
 ```
 That will show the server administrator to `player1`.  
-Commands such as `/mods, /pulverize, /status` and `/days` do the same.
+The command `/mods, /pulverize, /status` and `/days` can also do the same.
 
 ## Requirements
 This mod works fine with MT/MTG 5.0.0+ (may work on older versions).
