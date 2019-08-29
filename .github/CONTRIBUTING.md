@@ -22,9 +22,9 @@ Contributors are welcome. Here's how you can help:
 ## For collaborators
 - You must not close a pull request/issue without a good reason.
 - You must be polite while requesting changes, or reviewing or closing a pull request/issue.
-- Review the pull request after merging it. If unsure, ask other collaborators, or the owner.
+- Review the pull request before merging it. If unsure, ask other collaborators, or the owner.
 - Create a pull request if you want to add new features (with a new branch).
 - Approve pull request before merge if it looks correct.
 - Request changes when really needed, else, just comment.
-- You must ask the owner when doing something serious/changing something (if you're unsure).
+- You must ask the owner when doing changing something (serious) (if you're unsure).
 - Off-topic is allowed, but only for support.
