@@ -29,10 +29,10 @@ You can also run some commands for other players (optional):
 /admin player1
 ```
 That will show the server administrator to `player1`.  
-The command `/mods, /pulverize, /status` and `/days` can also do the same.
+The command `/mods, /pulverize, /status` and `/days` can do the same, too.
 
 ## Requirements
-This mod works fine with MT/MTG 5.0.0+ (may work on older versions).
+This mod works with MT/MTG 5.0.0+.
 
 ## License
 [LGPLv2.1](https://Panquesito7/enhanced_builtin_commands/LICENSE) for everything.
