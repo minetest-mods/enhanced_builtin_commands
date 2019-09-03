@@ -4,13 +4,13 @@ Enhanced Builtin Commands is _Rolling Release_, which means you can use the late
 
 ## Installation
 - Unzip the archive, rename the folder to enhanced_builtin_commands and
-place it in .. minetest/mods/ ..
+place it in .. minetest/mods/
 
 - GNU/Linux: If you use a system-wide installation place
     it in ~/.minetest/mods/.
 
 - If you only want this to be used in a single world, place
-    the folder in .. worldmods/ .. in your world directory.
+    the folder in .. worldmods/ in your world directory.
 
 For further information or help, see:  
 https://wiki.minetest.net/Installing_Mods
