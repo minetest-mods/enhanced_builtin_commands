@@ -37,6 +37,6 @@ This mod works with MT/MTG 5.0.0+.
 ## License
 [LGPLv2.1](https://Panquesito7/enhanced_builtin_commands/LICENSE) for everything.
 
-## Issues, bugs, and feature requests
-Pull requests and [issues](https://github.com/Panquesito7/enhanced_builtin_commands/issues/new/choose) are welcome.  
-Create a [pull request](https://github.com/Panquesito7/enhanced_builtin_commands/compare) if you want to add new features.
+## Issues, suggestions, features & bugfixes.
+Report bugs or suggest ideas by [creating an issue](https://github.com/Panquesito7/enhanced_builtin_commands/issues/new/choose).    
+If you know how to fix an issue, or want something to be added, consider opening a [pull request](https://github.com/Panquesito7/enhanced_builtin_commands/compare).
