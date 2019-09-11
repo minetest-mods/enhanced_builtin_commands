@@ -7,6 +7,7 @@ Contributors are welcome. Here's how you can help:
 - If it's a feature request, think on it if it's needed.
 - You **must** be polite (while commenting on or opening an issue).
 - Review your issue before opening it.
+- The issue templates are not necessarily required (they can be avoided).
 - Off-topic is not allowed.
 
 ## Creating a pull request
@@ -17,6 +18,7 @@ Contributors are welcome. Here's how you can help:
 - You **must** be polite (while commenting on or opening a pull request).
 - Review before opening the pull request (if it has any issues, etc.).
 - You must enable the checkbox "Allow edits from maintainers".
+- The pull request templates are not necessarily required (they can be avoided).
 - Off-topic is not allowed.
 
 ## For collaborators
