@@ -1,6 +1,6 @@
 --[[
 Re-write some functions (from builtin).
-Copyright (C) 2019 Panquesito7 (halfpacho@gmail.com)
+Copyright (C) 2019 David Leal (halfpacho@gmail.com)
 
 This library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
@@ -335,7 +335,7 @@ if core.get_modpath("sethome") then
 	})
 end
 
--- When player joins/leaves, send a translatable message
+-- When player joins/leaves, send a translated message
 function core.send_join_message(player_name)
 	if not core.is_singleplayer() then
 		core.chat_send_all(S("*** @1 joined the game.", player_name))
