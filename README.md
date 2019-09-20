@@ -35,8 +35,10 @@ The command `/mods, /pulverize, /status` and `/days` can do the same, too.
 This mod works with MT/MTG 5.0.0+.
 
 ## License
-[LGPLv2.1](https://Panquesito7/enhanced_builtin_commands/LICENSE) for everything.
+[LGPLv2.1+](https://minetest-mods/enhanced_builtin_commands/LICENSE) for everything.
 
 ## Issues, suggestions, features & bugfixes.
-Report bugs or suggest ideas by [creating an issue](https://github.com/Panquesito7/enhanced_builtin_commands/issues/new/choose).    
-If you know how to fix an issue, or want something to be added, consider opening a [pull request](https://github.com/Panquesito7/enhanced_builtin_commands/compare).
+Report bugs or suggest ideas by [creating an issue](https://github.com/minetest-mods/enhanced_builtin_commands/issues/new/choose).    
+If you know how to fix an issue, or want something to be added, consider opening a [pull request](https://github.com/minetest-mods/enhanced_builtin_commands/compare).
+
+**Templates are not required.**
