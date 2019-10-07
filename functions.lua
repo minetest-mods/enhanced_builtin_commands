@@ -327,14 +327,6 @@ enhanced_builtin_commands.override_privilege("debug", {
 	give_to_admin = true,
 })
 
--- Minetest Game privileges
-if core.get_modpath("sethome") then
-	enhanced_builtin_commands.override_privilege("home", {
-		description = S("Can use /sethome and /home"),
-		give_to_singleplayer = false,
-	})
-end
-
 -- When player joins/leaves, send a translated message
 function core.send_join_message(player_name)
 	if not core.is_singleplayer() then

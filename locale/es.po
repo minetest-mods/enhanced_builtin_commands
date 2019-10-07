@@ -173,34 +173,6 @@ msgid "Allows enabling various debug options that may affect gameplay"
 msgstr "Permite habilitar varias opciones de depuración que pueden afectar el juego"
 
 #: functions.lua
-msgid "Can use /sethome and /home"
-msgstr "Puede usar /sethome y /home"
-
-#: functions.lua
-msgid "Teleport you to your home point"
-msgstr "Teletransportarse a tu posición de origen."
-
-#: functions.lua
-msgid "Teleported to home!"
-msgstr "¡Teletransportado a casa!"
-
-#: functions.lua
-msgid "Set a home using /sethome"
-msgstr "Establecer una casa usando /sethome"
-
-#: functions.lua
-msgid "Set your home point"
-msgstr "Establece tu punto de origen."
-
-#: functions.lua
-msgid "Home set!"
-msgstr "¡Casa establecida!"
-
-#: functions.lua
-msgid "Player not found!"
-msgstr "¡Jugador no encontrado!"
-
-#: functions.lua
 msgid "*** @1 joined the game."
 msgstr "*** @1 se unió al juego."
 
@@ -811,10 +783,6 @@ msgstr "[all | privs | <comando>]"
 #: init.lua
 msgid "Get help for commands or list privileges"
 msgstr "Obtenga ayuda para todos los comandos disponbiles o privilegios de la lista."
-
-#: init.lua
-msgid "Kill yourself to respawn"
-msgstr "Destruirse para reaparecer."
 
 #: functions.lua
 msgid "No static_spawnpoint defined"
