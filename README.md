@@ -17,9 +17,6 @@ https://wiki.minetest.net/Installing_Mods
 
 ## Dependencies
 - [intllib](https://github.com/minetest-mods/intllib)
-### Optional dependencies
-- sethome (included in [minetest_game](https://github.com/minetest/minetest_game))
-- game_commands (included in [minetest_game](https://github.com/minetest/minetest_game))
 
 ## Features
 This mod overrides all builtin-chatcommands to add support for intllib (currently, there's only translation for spanish).   
@@ -41,4 +38,4 @@ This mod works with MT/MTG 5.0.0+.
 Report bugs or suggest ideas by [creating an issue](https://github.com/minetest-mods/enhanced_builtin_commands/issues/new/choose).    
 If you know how to fix an issue, or want something to be added, consider opening a [pull request](https://github.com/minetest-mods/enhanced_builtin_commands/compare).
 
-**Templates are not required.**
+**Issue/PR templates are not required.**
