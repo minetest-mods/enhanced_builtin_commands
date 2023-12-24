@@ -1,4 +1,9 @@
 # Enhanced Builtin Commands
+
+> **Note**
+>
+> This is already builtin in the Minetest Engine, which means you don't need to use this mod anymore.
+
 Adds intllib support for builtin commands (and adds other features).  
 Enhanced Builtin Commands is _Rolling Release_, which means you can use the latest commits without fear.
 
